@@ -1,7 +1,7 @@
 # The KAUotic Sticker Puzzle of May 2022
 
 ## Step 1: The Hidden Zip
-The puzzle starts with a gif hosted on my website: <https://www.jonathanmagnusson.com/do_you_liek_mudkipz.gif>
+The puzzle starts with a gif hosted on my website: <https://www.jonathanmagnusson.com/do_you_liek_mudkipz.gif>.
 The reason why the gif was not simply posted in the Discord chat is because Discord had a tendency to remove any concatenated files...
 The file was created by simply concatenating the original mudkips.gif with secret.zip using the cat command:
 
@@ -16,7 +16,7 @@ There are multiple ways to find/extract any potential hidden zip files:
 ## Step 2: Stegonography
 Extracting the contents of secret.zip gives you a file called **longcat.jpg**.
 This file is also containing some secret information that is not visible on the surface,
-and these is also a hint slightly less hidden in the file.
+and there is also a hint slightly less hidden in the file.
 - ``$ file longcat.jpg``
 - ``$ strings longcat.jpg``
 - ``$ exiftool longcat.jpg``
